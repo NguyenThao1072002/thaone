@@ -1,0 +1,338 @@
+body {  
+    font-family:Arial, Helvetica, sans-serif;   
+    overflow-x: hidden;
+    }
+
+#GT1{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10%;
+    margin-left: 50px;
+}
+
+.anh{
+    float: left;
+    margin-top: 50px;
+}
+
+
+/* button tang giam sl */
+/* <![CDATA[ */
+.buttons_added {
+    opacity:1;
+    display:inline-block;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    white-space:nowrap;
+    vertical-align:top;
+}
+.is-form {
+    overflow:hidden;
+    position:relative;
+    background-color:#f9f9f9;
+    height:2.2rem;
+    width:1.9rem;
+    padding:0;
+    text-shadow:1px 1px 1px #fff;
+    border:1px solid #ddd;
+}
+.is-form:focus,.input-text:focus {
+    outline:none;
+}
+.is-form.minus {
+    border-radius:4px 0 0 4px;
+}
+.is-form.plus {
+    border-radius:0 4px 4px 0;
+}
+.input-qty {
+    background-color:#fff;
+    height:2.2rem;
+    text-align:center;
+    font-size:1rem;
+    display:inline-block;
+    vertical-align:top;
+    margin:0;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+    border-left:0;
+    border-right:0;
+    padding:0;
+}
+.input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin:0;
+}
+
+
+.khuyenmai{
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(245, 237, 222);
+}
+#flash1{
+    font-size: 40px;
+    color: rgb(245, 237, 222);
+    margin-left: 7px;
+    padding: 8px;
+    background-color: rgb(17, 65, 224);
+    float: left;
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+}
+#flash2{
+    font-size: 40px;
+    color: rgb(26, 48, 216);
+    margin-left: 7px;
+    padding: 8px;
+    background-color: rgb(238, 167, 86);
+    float: left;
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+}
+
+.goiy{
+  
+    margin-top: 10px;
+    width: 100%;
+    height: 915px;
+    background-color: rgb(245, 237, 222);
+}
+
+.o1 {
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 226px;
+    height: 310px;
+    margin-left: 14px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.sanpham {
+    width: 225px;
+    height: 204px;
+}
+.thongtin {
+    width: 194px;
+    height: 45px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 20px;
+    border-radius: 20%;
+}
+.gia {
+    width: 194px;
+    height: 23px;
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: red;
+}
+.giagoc {
+    width: 194px;
+    height: 23px;
+    font-size: 20px;
+    margin-left: 110px;
+    color: rgb(142, 140, 140);
+    margin-top: -20px;
+}
+.gachngang{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(163, 160, 255);;
+}
+/* ]]> */
+
+
+.ungdung2{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(175, 212, 171);
+}
+.ungdung22{
+    float: left;
+    margin-left: 0px;    
+    margin-top: 10px; 
+    margin-bottom: 20px;
+}
+.ungdung222 li {
+    color: rgb(163, 160, 255);;
+    display: inline-block;
+    padding: 0px;
+    position: relative;
+    margin-left:90px;
+    font-size: 40px;
+}
+
+.ungdung222 li img{
+    width: 50px;
+}
+.ungdung222 li:hover {
+    color: rgb(242, 90, 90);
+    font-size: 20px;
+    cursor: pointer;
+}
+.o1 .thongtin:hover
+{
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.bp1{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid white;
+}
+
+.bp2{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid white;
+}
+
+.o1 .gia{
+    font-size: 18px;
+}
+
+.o1 .giagoc{
+    font-size: 15px;
+}
+
+.container mt-5{
+    margin-top: 0px;
+}
+
+
+.wrapper{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f7fa;
+    border: 1px solid rgb(65, 64, 64);
+    box-shadow: 0 1px 2px  rgb(151, 149, 149);
+}
+
+.wrapper span{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrapper span.num{
+   font-size: 20px;
+   border-right: 1px solid rgb(151, 149, 149);
+   border-left: 1px solid rgb(151, 149, 149);
+   pointer-events: none;
+}
+
+.container{
+    margin-left: 400px;
+    width: 600px;
+}
+.c-o{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:600px){
+    .inf{
+        text-decoration: none; 
+        color: inherit; 
+        margin-top: -20px;
+        font-size: 18px;
+        height: 400px;
+    }
+    #flash{
+        height: 800px;
+        font-size: 20px;
+        color: rgb(26, 48, 216);
+        margin-left: 7px;
+        padding: 8px;
+        border:1px solid  #ddd;
+    }
+
+    .product{
+        margin-left: 50px;
+    }
+
+    .ungdung2{
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 50px;
+        background-color: rgb(175, 212, 171);
+    }
+    .ungdung22{
+        float: left;
+        margin-left: 0px;    
+        margin-top: 5px; 
+        margin-bottom: 10px;
+    }
+    .ungdung222 li {
+        color: rgb(163, 160, 255);;
+        display: inline-block;
+        padding: 0px;
+        position: relative;
+        margin-left:5px;
+        font-size: 18px;
+    }
+    .ungdung222 li img{
+        width: 25px;
+    }
+    .ungdung222 li:hover {
+        color: rgb(242, 90, 90);
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    #flash1{
+        font-size: 30px;
+        color: rgb(26, 48, 216);
+        margin-left: 7px;
+        padding: 8px 15px;
+        background-color: rgb(245, 237, 222);
+        float: left;
+        margin-top: 50px;
+        height: 50px;
+        width: 100%;
+    }
+    #flash2{
+        font-size: 15px;
+        color: rgb(26, 48, 216);
+        margin-left: 7px;
+        padding: 8px;
+        background-color: rgb(238, 167, 86);
+        float: left;
+        margin-top: 50px;
+        height: 50px;
+        width: 100%;
+    }
+    #content-f{
+        margin-left: 50px;
+    }
+    
+    .c-o{
+        width: 100%;
+        height: 100%;
+    }
+
+    .noibat{background-color: #fff;}
+}

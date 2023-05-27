@@ -1,0 +1,416 @@
+<!doctype html>
+<html>
+     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Trang chủ</title>
+        <link rel="stylesheet" href="zzz.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    
+    </head>
+    <style>
+        .row{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .col-2{
+            flex-basis:50%;
+            min-width: 300px;
+        }
+        .col-2 img{
+            max-width: 100%;
+            padding: 50px 0;
+        }
+        .col-2 h1{
+            font-size: 50px;
+            line-height: 60px;
+            margin: 25px 0;
+            border-radius: 30%;
+            margin-left: 100px;
+        }
+        .btn1{
+            display: inline-block;
+            background: #ff523b;
+            color: #fff;
+            padding: 8px 30px;
+            margin: 30px 0;
+            border-radius: 30px;
+            margin-left: 150px;
+            transition: background 0.5s;
+        }
+        .btn1:hover{
+            background: #563434;
+            
+            color: #fff;
+        }
+        .head{
+            background: radial-gradient(#fff,#ffd6d6);
+        }
+        .head.row{
+            margin-top: 70px;
+        }
+        .categorites{
+            margin: 70px 0;
+            width: 100%;
+        }
+        .col-3 {
+            flex-basis: 30%;
+            min-width: 250px;
+            margin-bottom: 30px;
+        }
+        .col-3 img{
+           /*  max-width: 400px;
+            height: 550px;
+            padding: 50px 0;
+            margin-right: 50px;*/
+            width: 100%;
+        }
+        .smail-container{
+            max-width: 1080px;
+            margin: auto;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-top: 15px;
+
+        }
+        h2{
+            text-align: center;
+            font-weight: bold;
+            line-height: 90px;
+        }
+
+        .col-4{
+            flex-basis: 25%;
+            min-width: 200px;
+            margin-bottom: 50px;
+            padding: 10px;
+            max-width: 400px;
+        }
+        .col-4 img{
+           /* 
+            height: 550px;
+            padding: 50px 0;
+            margin-right: 50px;*/
+            width: 100%;
+        }
+        h2{
+            text-align: center;
+            margin:  0 auto 60px;
+            position: relative;
+            line-height: 60px;
+            color: #555;
+        }
+        h2::after{
+            content: '';
+            background: #ff523b;
+            width: 80px;
+            height: 5px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .thongtin{
+            color: brown;
+        }
+
+        .thongtin:hover{
+            color: darkred;
+        }
+        .o1{
+            flex-basis: 25%;
+            padding: 10px;
+            min-width: 200px;
+            margin-bottom: 50px;
+            transition: transform 0.5s;
+        }
+        .o1 img{
+            width: 100%;
+        }
+        .o1:hover{
+            transform: translateY(-5px);
+        }
+        .offer{
+            background: radial-gradient(#fff,#ffd6d6);
+            margin-top: 450px;
+            padding: 30px 0;
+            width: 100%;
+        }
+        .col-2 .offer-img{
+            padding: 50px;
+            width: 500px;
+        }
+        small{
+            color: #555;
+        }
+
+        /* #left-f{
+    width: 200px;
+    height: 400px;
+    background-color: lightgreen;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    float: left;
+}
+
+#content-f{
+    width: 585px;
+    height: 400px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+
+#right-f{
+    width: 200px;
+    height: 400px;
+    background-color: deepskyblue;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    float: right;
+} */
+    </style>
+
+     <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" style="font-weight: bold; font-size: 25px;">
+          <div class="container-fluid" style="background-color: pink;">
+            <a class="navbar-brand" href="GT.html"><img src="logoo.png" alt="Htrangchu" width="90px" style="border-radius: 50%;"></a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="SP.html">Sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="GT.html">About Me</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    District
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="https://www.google.com/maps/place/1bis+%C4%90.+Nguy%E1%BB%85n+Th%E1%BB%8B+Minh+Khai,+B%E1%BA%BFn+Ngh%C3%A9,+Qu%E1%BA%ADn+1,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7878089,106.7039714,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x31752f38f9ed887b:0x14aded5703768989!2zUXXhuq1uIDEsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!3b1!8m2!3d10.7756587!4d106.7004238!16s%2Fm%2F03mb_7g!3m5!1s0x31752f4ca3041253:0x9d9a8563ef10e15d!8m2!3d10.7881186!4d106.7065088!16s%2Fg%2F11c1wmsg0b?hl=vi-VN&entry=ttu">Quận 1</a></li>
+                    <li><a class="dropdown-item" href="https://www.google.com/maps/place/K%C3%AAnh+Nhi%C3%AAu+L%E1%BB%99c/@10.7887325,106.652018,15z/data=!3m1!4b1!4m15!1m8!3m7!1s0x31752ed625169425:0x775d5068165e63b5!2zUXXhuq1uIDMsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!3b1!8m2!3d10.7843695!4d106.6844089!16s%2Fm%2F03mb_7t!3m5!1s0x31752933693811cb:0xfafebeeea3f66764!8m2!3d10.7867417!4d106.6743575!16s%2Fg%2F1td_84wx?hl=vi-VN&entry=ttu">Quận 3</a></li>
+                    <li><a class="dropdown-item" href="https://www.google.com/maps/place/Ch%C3%B9a+B%C3%A0+Thi%C3%AAn+H%E1%BA%ADu+-+Tu%E1%BB%87+Th%C3%A0nh+H%E1%BB%99i+Qu%C3%A1n/@10.7540966,106.6619705,17.17z/data=!4m15!1m8!3m7!1s0x31752efb7d184b87:0xab92c1d33fffeb7!2zUXXhuq1uIDUsIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!3b1!8m2!3d10.7540279!4d106.6633746!16s%2Fm%2F03mb_8v!3m5!1s0x31752ef6d3f19853:0x246af0e8b3aaf097!8m2!3d10.7532725!4d106.6611707!16s%2Fm%2F05q71sj?hl=vi-VN&entry=ttu">Quận 5</a></li>
+                    <li><a class="dropdown-item" href="https://www.google.com/maps/place/Ho%C3%A0+H%E1%BA%A3o,+Ph%C6%B0%E1%BB%9Dng+6,+Qu%E1%BA%ADn+10,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh,+Vi%E1%BB%87t+Nam/@10.7607259,106.6584727,17z/data=!3m1!4b1!4m15!1m8!3m7!1s0x31752edc7bd9fd65:0x7500396cc3a60d04!2zUXXhuq1uIDEwLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!3b1!8m2!3d10.7745965!4d106.6679542!16s%2Fm%2F03mb_cl!3m5!1s0x31752eef999f679d:0x18862367eaccd7a6!8m2!3d10.7607218!4d106.663211!16s%2Fg%2F11bw3_fjhl?hl=vi-VN&entry=ttu">Quận 10</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Một địa điểm khác</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="LOGIN.HTML">Log In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="giohang.html"> <img src="carts.png" alt="gh" width="40px"></a>
+                </li>
+                
+  
+                <li class="nav-item">
+                  
+             
+                </li>
+              </ul>
+              <form class="d-flex" role="search" style="margin-top: -1px;">
+                <input class="form-control me-2" type="search" placeholder="Tìm một sản phẩm nào đó" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" style="background-color: green;background-color: darkblue;"><b style="color: white;">Tìm kiếm</b></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      
+    <div class="main-content">
+             <!--  qcao  -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="qc4.jpg" style="height: 350px;" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="qc5.png!bw700"style="height: 350px; "class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="qc6.png"style="height: 350px;" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        <!--  tchu  -->
+      <div class="head">
+        <div class="row">
+            <div class="col-2">
+                <h1>Thu Thảo Comestic</h1>
+                <p style="margin-left: 80px;">Thu Thảo Comestic xin trân trọng và cảm ơn khách hàng đã tin tưởng và lựa chọn chúng tôi là nơi đặt mua sắm và trải nghiệm dịch vụ. </p>
+                <a href="SP.html" class="btn1">Khám phá ngay &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="tc.jpg" alt="" style="border-radius: 50%;">
+            </div>
+          </div>
+      </div>
+      <div class="content" style="width:100% ; height: 100%;">
+       <!--  danh muc noi bat  -->
+ <div class="categories" >
+  <h2>Danh mục nổi bật</h2>
+  <div class="smail-container">
+      <div class="row">
+          <div class="col-3">
+              <img src="dmnb1.jpg" alt="">
+          </div>
+          <div class="col-3">
+              <img src="dmnb2.jpg" alt="">
+          </div>
+          <div class="col-3">
+              <img src="dmnb3.jpg" alt="">
+          </div>
+      </div>
+  </div>
+  
+</div>
+
+<!--  sp noi bat  -->
+<div class="smail-container">
+  <h2>Sảm phẩm nổi bật</h2>
+  <div>
+    <div class="o1" style="height: 350px; text-decoration: none;margin-right: 80px;">
+      <a href="CTSP.html" style="text-decoration: none;"><img class="sanpham" src="sp1a.jpg" alt="">
+        <div class="thongtin">Son Kem Lì  Espoir Couture Lip Tint </div>
+        <div class="gia" style="text-decoration: none;">300.000 đ</div><div class="giagoc"><s>500.000đ</s></div> </a>
+        <button id="carts" style="margin-top: 5px;padding: 5px;  margin-left: 15px;">Thêm vào giỏ hàng</button>
+    </div>     
+
+    <div class="o1" style="height: 350px; text-decoration: none;margin-right: 80px;">
+      <a href="CTSP.html" style="text-decoration: none;"><img class="sanpham" src="sp2.jpg" alt="">
+        <div class="thongtin">Phấn Nước Kiềm Dầu Lemonade </div>
+        <div class="gia" style="text-decoration: none;">367.000 đ</div><div class="giagoc"><s>459.000đ</s></div> </a>
+        <button id="carts" style="margin-top: 5px;padding: 5px;  margin-left: 15px;">Thêm vào giỏ hàng</button>
+    </div> 
+    <div class="o1" style="height: 350px; text-decoration: none;margin-right: 80px;">
+      <a href="CTSP.html" style="text-decoration: none;"><img class="sanpham" src="sp4.jpg" alt="">
+        <div class="thongtin">Kem Dưỡng Ẩm Neutrogena </div>
+        <div class="gia" style="text-decoration: none;">271.000 đ</div><div class="giagoc"><s>370.000đ</s></div> </a>
+        <button id="carts" style="margin-top: 5px;padding: 5px;  margin-left: 15px;">Thêm vào giỏ hàng</button>
+    </div>         
+     
+  </div>
+  
+</div>
+      </div>
+     </div >
+    <div class="c-o">
+      <div class="offer">
+        <div class="smail-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="sp6.jpg" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <h1>[3 Items] Bộ Kit Dưỡng Innisfree</h1>
+                    <small>Công thức từ nước ép lựu và tinh dầu hạt lựu giàu chất dinh dưỡng giúp nuôi dưỡng làn da trở nên sáng mịn, căng bóng và tràn đầy năng lượng.</small>
+                    <a href="" class="btn1">Mua ngay &#8594</a>
+                
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+                
+  <div class="container-f">
+    <div id="left-f" style="width: 500px;margin-left: 20px;margin-bottom: 50px; margin-top: 80px; margin-right: 20px; font-size: 13px;float: left;">
+      <div class="footerwrap_item active">
+        <p class="title_footer"><span style="font-size: 25px; font-weight: bold;">Thông tin liên hệ</span>
+          <span class="footer-arrowbut">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="4.37114e-08" y1="7.78955" x2="15" y2="7.78955" stroke="white"></line>
+              <line x1="8" y1="2.18557e-08" x2="8" y2="15" stroke="white"></line>
+            </svg>
+            <svg width="15" height="2" viewBox="0 0 15 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <line x1="4.37114e-08" y1="0.789551" x2="15" y2="0.789552" stroke="white"></line>
+            </svg>
+        </span>
+      </p>
+      <div class="contentfooter">
+        <div>Hotline: 0348740942 (8:00-21:00)</div>
+        <div>• Zalo: <a target="_blank" href="https://zalo.me/g/uzunrc136">ZaloThuThaoComestic.com</a><br>•&nbsp;
+          Facebook: <a target="_blank" href="https://www.facebook.com/profile.php?id=100008303809251&sk=photos_by">FacebookThuThaoComestic.com</a><br>•&nbsp;
+          Tuyển dụng: <a target="_blank" href="tt1072002@gmail.com">ThuThaoComestic@gmail.com</a></div><div>&nbsp;
+          </div>
+          <div>Công ty TNHH MTV thương mại&nbsp;dịch vụ Blue Ocean</div>
+          <div>Giấy CNĐKDN Số: <br> 0316037655 do sở kế hoạch và&nbsp;
+            đầu tư cấp ngày 25/11/2019&nbsp;
+          </div>
+      </div>
+      <div id="content-f" style="width: 500px;margin-left: 20px; margin-right: 20px;margin-top: 50px; font-size: 13px;float: right;">
+        <div class="footerwrap_item">
+          <p class="title_footer"><span style="font-size: 25px; font-weight: bold;">Về chúng tôi</span>
+            <span class="footer-arrowbut">
+              <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="4.37114e-08" y1="7.78955" x2="15" y2="7.78955" stroke="white"></line>
+                <line x1="8" y1="2.18557e-08" x2="8" y2="15" stroke="white"></line>
+              </svg>
+              <svg width="15" height="2" viewBox="0 0 15 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="4.37114e-08" y1="0.789551" x2="15" y2="0.789552" stroke="white"></line>
+              </svg>
+            </span>
+          </p>
+          <div class="contentfooter2">
+            <ul>
+              <li><a href="/pages/chung-chi-dai-ly-chinh-hang">CHỨNG CHỈ ĐẠI LÝ CHÍNH HÃNG</a></li>
+              <li><a href="/pages/phuong-thuc-thanh-toan">PHƯƠNG THỨC THANH TOÁN</a></li>
+              <li><a href="/pages/chinh-sach-tra-hang-hoan-tien">CHÍNH SÁCH TRẢ HÀNG - HOÀN TIỀN</a></li>
+              <li><a href="/pages/chinh-sach-giao-hang">CHÍNH SÁCH GIAO HÀNG</a></li>
+              <li><a href="/pages/chinh-sach-doi-tra">CHÍNH SÁCH ĐỔI TRẢ</a></li>
+              <li><a href="/pages/chinh-sach-bao-mat">CHÍNH SÁCH BẢO MẬT</a></li>
+              <li><a href="/pages/dieu-khoan-mua-ban">ĐIỀU KHOẢN MUA BÁN</a></li>
+              <li><a href="/collections/tich-diem-doi-qua">TÍCH ĐIỂM ĐỔI QUÀ</a></li>
+              <li><a href="https://tuyendung.tgsf.vn" target="_blank">TUYỂN DỤNG</a></li>
+              <li><a href="/pages/lien-he-voi-chung-toi">LIÊN HỆ</a></li>
+            </ul>
+          </div>
+          <div id="right-f" style="width: 100%; margin-left: 20px;">
+            <figure class="text-line">
+                <span><!--<br><br><br><br><br><br><br><br><br><br><br><br><br><br>  -->
+                 Bản quyền © bởi <a href="GT.html">Thu Thảo</a> - <script>document.write(new Date().getFullYear());</script>.</span>
+              <br> <span class="text-muted">Hành trang phái đẹp</span>
+              <p class="float-right">
+                  <a href="index.html">Về đầu trang</a>
+              </p>
+                </figure>
+          </div>   
+        </div>
+      </div>   
+      
+</div>
+    </div>
+    
+    
+  </div>
+
+        
+    </body>
+</html>
